@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "About"
+    url: /index/
+  - title: "CV"
+    url: /assets/cv.pdf
+  - title: "Research"
+    url: /research/
+  # - title: "Publications"
+  #   url: /publications/

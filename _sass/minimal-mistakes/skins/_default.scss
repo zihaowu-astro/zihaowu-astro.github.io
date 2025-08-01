@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Default skin
+   ========================================================================== */
+
+// Intentionally left blank
+
+$background-color: #ffffff;
+$text-color: #111111;
+$link-color: #800000;
+
+// no underline links
+a {
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    text-decoration: none; 
+  }
+}
+
+// text width and alignment
+$max-width: 1020px;
+.page__content p {
+  text-align: justify;
+}
+
+// font
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+body {
+  font-family: 'Merriweather', Georgia, serif;
+}
+body {
+  font-size: 20px; 
+  line-height: 1.6;
+}
+
+
+/* splash page */
+.layout--splash .page__content {
+  max-width: 720px; 
+  margin-left: auto;
+  margin-right: auto;
+}
