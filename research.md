@@ -59,7 +59,7 @@ Wu & Ho (2025) [*The Astrophysical Journal 985, 2*](https://iopscience.iop.org/a
 IMBHs are too faint to detect through their electromagnetic emissions. I proposed a method to detect their gravitational lensing effects on background quasars. IMBH microlensing selectively magnifies emissions inside the broad line region of quasars, causing them to appear as high-Eddington, weak-line quasars. Cosmological peculiar motions introduce long-term lensing-induced variability, with the same amplitude across ultraviolet, optical, and X-ray wavelengths. IMBHs embedded within companion stellar clusters can generate complex caustic structures, leading to distinctive and highly variable quasar light curves.
 
 {% include figure
-   image_path="/assets/fig/imbh.png"
+   image_path="/assets/fig/IMBH.png"
    alt="imbh"
    caption="Fig. 5 Caustic structures produced by an intermediate-mass black hole with a mass of 1000 M⊙ at redshift *z* = 1, embedded in a stellar cluster with a surface density of 30 stars per square parsec."
    width="30%"           %} 
