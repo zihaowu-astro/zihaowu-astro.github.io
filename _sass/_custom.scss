@@ -11,3 +11,14 @@
   }
   
 }
+
+
+@media (max-width: 600px) {
+  body { font-size: 14px; } 
+  .author__avatar img { width: 60px; } 
+}
+
+@media (max-width: 800px) {
+  .author__avatar img { width: 80px; }
+}
+
