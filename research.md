@@ -14,7 +14,7 @@ To enable robust flux measurements under low signal-to-noise conditions, I perfo
 Our analysis reveals that this low-luminosity galaxy has weak metal emission lines, in stark contrast to the strong emission lines observed in more luminous *z > 10* objects.  It also challenges the expected relation between galaxy size and line emission strength. These results suggest that compact, low-luminosity galaxies in the early Universe may have lower metallicity and potentially a high escape fraction, with important implications for understanding chemical enrichment and the role of faint galaxies in driving cosmic reionization.
 
 {% include figure
-   image_path="/assets/fig/mosaic.pdf"
+   image_path="/assets/fig/mosaic.jpg"
    alt="image"
    caption="Fig. 1 JWST NIRcam and MIRI/F770W images of JADES-GS-z14-1.  The MIRI/F770W image have 70 hours of total exposure, the deepest observation for any high-redshift galaxies. The NIRCam images have 16 bands with exposure time > 6 hours in each band. JADES-GS-z14-1 is extremely compact and not resolved in all bands. The MIRI/F770W observation reveals a rest-frame optical flux density of 7.9 ± 2.6 nJy (29.2 mag)."
    width="70%"           %} 
