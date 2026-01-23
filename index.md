@@ -26,8 +26,9 @@ arXiv e-prints, [arXiv:2601.15960 (2026)](https://arxiv.org/abs/2601.15960)
 arXiv e-prints, [arXiv:2601.15958 (2026)](https://arxiv.org/abs/2601.15958)
 
 **Zihao Wu**, Daniel J. Eisenstein, Benjamin D. Johnson, Peter Jakobsen, *et al.*  
-*JADES-GS-z14-1: A Compact, Faint Galaxy at z ≈ 14 with Weak Metal Lines from Extremely Deep JWST MIRI, NIRCam, and NIRSpec Observations*  
-arXiv e-prints, [arXiv:2507.22858 (2025)](https://arxiv.org/abs/2507.22858)
+*JADES-GS-z14-1: A Compact, Faint Galaxy at z ≈ 14 with Weak Metal Lines from Extremely Deep JWST MIRI, NIRCam, and NIRSpec Observations* 
+
+[The Astrophysical Journal, 992, 212 (2025)](https://iopscience.iop.org/journal/0004-637X) 
 
 **Zihao Wu**, Luis C. Ho  
 *Detecting Intermediate-mass Black Holes Using Quasar Microlensing*  
