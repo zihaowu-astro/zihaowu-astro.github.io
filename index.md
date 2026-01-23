@@ -31,17 +31,16 @@ arXiv e-prints, [arXiv:2507.22858 (2025)](https://arxiv.org/abs/2507.22858)
 
 **Zihao Wu**, Luis C. Ho  
 *Detecting Intermediate-mass Black Holes Using Quasar Microlensing*  
-*The Astrophysical Journal*, 985, 2 (2025)  
-https://iopscience.iop.org/article/10.3847/1538-4357/adcec3
+[*The Astrophysical Journal*, 985, 2 (2025)](https://iopscience.iop.org/article/10.3847/1538-4357/adcec3)
 
 **Zihao Wu**, Luis C. Ho, Ming-Yang Zhuang  
 *An Elusive Population of Massive Disk Galaxies Hosting Double-lobed Radio-loud AGNs*  
-*The Astrophysical Journal*, 941, 95 (2022)  
-https://iopscience.iop.org/article/10.3847/1538-4357/ac9cd5
+[*The Astrophysical Journal*, 941, 95 (2022)](https://iopscience.iop.org/article/10.3847/1538-4357/ac9cd5)  
+
 
 P. Rinaldi, G. Rieke, **Z. Wu**, *et al.*  
-*Deciphering the Nature of Virgil: An Obscured AGN Lurking Within an Apparently Normal Lyman-α Emitter During Cosmic Reionization*  
-arXiv e-prints, [arXiv:2504.01852 (2025)](https://ui.adsabs.harvard.edu/abs/2025arXiv250401852R/abstract)
+*Beyond the Dot: an LRD-like nucleus at the Heart of an IR-Bright Galaxy and its implications for high-redshift LRDs*  
+arXiv e-prints, [arXiv:2507.17738 (2025)](https://arxiv.org/abs/2507.17738)
 
 J. Helton, G. Rieke, S. Alberts, **Z. Wu**, D. Eisenstein, *et al.*  
 *JWST/MIRI Photometric Detection at 7.7 μm of the Stellar Continuum and Nebular Emission in a Galaxy at z > 14*  
