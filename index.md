@@ -44,8 +44,7 @@ arXiv e-prints, [arXiv:2507.17738 (2025)](https://arxiv.org/abs/2507.17738)
 
 J. Helton, G. Rieke, S. Alberts, **Z. Wu**, D. Eisenstein, *et al.*  
 *JWST/MIRI Photometric Detection at 7.7 μm of the Stellar Continuum and Nebular Emission in a Galaxy at z > 14*  
-*Nature Astronomy*, 1–12 (2025)  
-https://www.nature.com/articles/s41550-025-02503-z
+[*Nature Astronomy*, 1–12 (2025)](https://www.nature.com/articles/s41550-025-02503-z)
 
 F. Sun, D. J. Eisenstein, F. D’Eugenio, K. Hainline, *et al.*  
 *JADES: Discovery of Large Reservoirs of Small Dust Grains in the Circumgalactic Medium of Massive Galaxies at z ≈ 3.5 through Deep JWST/NIRCam Imaging and Grism Spectroscopy*  
