@@ -35,8 +35,9 @@ body {
 
 .greedy-nav .visible-links {
   display: flex !important;
-  flex: 0 0 auto;
-  margin-left: auto !important;
+  flex: 1 1 auto !important;
+  justify-content: flex-end !important;
+  margin-left: 0 !important;
 }
 
 .greedy-nav .visible-links li {
