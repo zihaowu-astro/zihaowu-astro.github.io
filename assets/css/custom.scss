@@ -21,8 +21,26 @@ body {
   display: none !important;
 }
 
-.greedy-nav .site-title {
-  display: inline-block !important;
+.greedy-nav {
+  display: flex;
+  align-items: center;
+}
+
+.greedy-nav .site-title,
+.greedy-nav .site-title.hidden {
+  display: block !important;
+  flex: 0 0 auto;
+  margin-right: 2rem;
+}
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  flex: 0 0 auto;
+  margin-left: 0 !important;
+}
+
+.greedy-nav .visible-links li {
+  flex: 0 0 auto;
 }
 
 .sidebar {
