@@ -1,0 +1,115 @@
+/* Keep desktop layout on narrow windows; allow horizontal scroll instead of reflow. */
+html,
+body {
+  min-width: 1200px;
+  overflow-x: auto;
+}
+
+#main {
+  max-width: $max-width;
+  min-width: $max-width;
+}
+
+.masthead__inner-wrap {
+  width: $max-width;
+  max-width: $max-width;
+  min-width: $max-width;
+}
+
+.greedy-nav__toggle,
+.hidden-links {
+  display: none !important;
+}
+
+.greedy-nav {
+  display: flex;
+  align-items: center;
+}
+
+.greedy-nav .site-title,
+.greedy-nav .site-title.hidden {
+  display: none !important;
+  flex: 0 0 auto;
+  margin-right: 2rem;
+  font-size: 1.2em;
+}
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  flex: 1 1 auto !important;
+  justify-content: flex-end !important;
+  margin-left: 0 !important;
+}
+
+.greedy-nav .visible-links li {
+  flex: 0 0 auto;
+}
+
+.greedy-nav .visible-links a {
+  margin: 0 0.7rem;
+}
+
+.sidebar {
+  float: inline-start;
+  width: calc(#{$right-sidebar-width} - 1em);
+  opacity: 1;
+}
+
+.sidebar.sticky {
+  overflow-y: auto;
+  max-height: calc(100vh - #{$nav-height} - 2em);
+}
+
+.page {
+  float: inline-end;
+  width: calc(100% - #{$right-sidebar-width});
+  padding-inline-end: 0;
+}
+
+.author__avatar {
+  display: block;
+  width: 255px;
+  height: auto;
+}
+
+.author__avatar img {
+  border-radius: 4px;
+  width: 255px;
+  height: auto;
+  max-width: unset;
+  margin-right: 0;
+  border: 0;
+}
+
+.author__content {
+  display: block;
+  width: 100%;
+  padding-inline: 0;
+}
+
+.author__bio {
+  font-size: 1.08em;
+}
+
+.author__urls-wrapper {
+  display: block;
+}
+
+.author__urls-wrapper button {
+  display: none;
+}
+
+.author__urls {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.author__urls::before,
+.author__urls::after {
+  display: none;
+}
