@@ -42,12 +42,12 @@ arXiv e-prints, [arXiv:2601.15958 (2026)](https://arxiv.org/abs/2601.15958)
 *Detecting Intermediate-mass Black Holes Using Quasar Microlensing*  
 [*The Astrophysical Journal*, 985, 2 (2025)](https://iopscience.iop.org/article/10.3847/1538-4357/adcec3)
 
-J. Helton, G. Rieke, S. Alberts, **Z. Wu**, D. Eisenstein, *et al.*  
-*JWST/MIRI Photometric Detection at 7.7 μm of the Stellar Continuum and Nebular Emission in a Galaxy at z > 14*  
-[*Nature Astronomy*, 1–12 (2025)](https://www.nature.com/articles/s41550-025-02503-z)
-
 **Zihao Wu**, Luis C. Ho, Ming-Yang Zhuang  
 *An Elusive Population of Massive Disk Galaxies Hosting Double-lobed Radio-loud AGNs*  
 [*The Astrophysical Journal*, 941, 95 (2022)](https://iopscience.iop.org/article/10.3847/1538-4357/ac9cd5)
+
+J. Helton, G. Rieke, S. Alberts, **Z. Wu**, D. Eisenstein, *et al.*  
+*JWST/MIRI Photometric Detection at 7.7 μm of the Stellar Continuum and Nebular Emission in a Galaxy at z > 14*  
+[*Nature Astronomy*, 1–12 (2025)](https://www.nature.com/articles/s41550-025-02503-z)
 
 [View full publication list](/publications/)
