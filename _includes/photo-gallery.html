@@ -1,0 +1,67 @@
+{% assign gallery = include.gallery %}
+{% assign layout = gallery.layout %}
+{% assign photo_size = layout.photo_size | default: 170 %}
+{% assign photo_width = layout.photo_width | default: photo_size %}
+{% assign photo_height = layout.photo_height | default: photo_size %}
+{% assign gap = layout.gap | default: 12 %}
+{% assign columns = layout.columns | default: 4 %}
+{% assign gap_count = columns | minus: 1 %}
+{% assign photo_width_total = columns | times: photo_width %}
+{% assign gap_width_total = gap_count | times: gap %}
+{% assign row_width = photo_width_total | plus: gap_width_total %}
+{% assign photo_style = "--gallery-columns: " | append: columns | append: "; --gallery-photo-width: " | append: photo_width | append: "px; --gallery-photo-height: " | append: photo_height | append: "px; --gallery-gap: " | append: gap | append: "px; --gallery-row-width: " | append: row_width | append: "px;" %}
+
+<div class="gallery-page">
+  <!-- <h1>Gallery</h1> -->
+
+  {% for section in gallery.sections %}
+    {% assign item_count = section.items | size %}
+    {% assign remaining_slots = section.limit | minus: item_count %}
+
+    <section class="gallery-section" aria-labelledby="gallery-{{ section.key }}">
+      <h2 id="gallery-{{ section.key }}">{{ section.title }}</h2>
+      <div class="gallery-grid" style="{{ photo_style }}">
+        {% for photo in section.items limit: section.limit %}
+          {% assign photo_title = photo.title | default: section.title %}
+          {% assign photo_caption = photo.caption | default: section.placeholder_caption %}
+          {% assign photo_alt = photo.alt | default: photo_title %}
+          {% assign raw_src = photo.src | default: photo.image | default: "" %}
+          {% assign photo_src = raw_src | replace_first: "./", "/" %}
+
+          <button class="gallery-card" type="button" data-title="{{ photo_title | escape }}" data-caption="{{ photo_caption | escape }}" data-alt="{{ photo_alt | escape }}" data-src="{{ photo_src | relative_url | escape }}" aria-label="{{ photo_title | escape }}">
+            {% if photo_src != "" %}
+              <img src="{{ photo_src | relative_url }}" alt="{{ photo_alt | escape }}" loading="lazy">
+            {% else %}
+              <span class="gallery-card__placeholder">{{ photo_title }}</span>
+            {% endif %}
+          </button>
+        {% endfor %}
+
+        {% if layout.show_empty_slots and remaining_slots > 0 %}
+          {% for slot in (1..remaining_slots) %}
+            {% assign slot_number = item_count | plus: forloop.index %}
+            {% assign slot_title = section.title | append: " " | append: slot_number %}
+            <button class="gallery-card gallery-card--empty" type="button" data-title="{{ slot_title | escape }}" data-caption="{{ section.placeholder_caption | escape }}" data-alt="{{ slot_title | escape }}" data-src="" aria-label="{{ slot_title | escape }}">
+              <span class="gallery-card__placeholder">{{ slot_title }}</span>
+            </button>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </section>
+  {% endfor %}
+</div>
+
+<div class="gallery-modal" data-gallery-modal hidden>
+  <div class="gallery-modal__backdrop" data-gallery-close></div>
+  <div class="gallery-modal__panel" role="dialog" aria-modal="true" aria-labelledby="gallery-modal-title">
+    <button class="gallery-modal__close" type="button" data-gallery-close aria-label="Close gallery image">&times;</button>
+    <div class="gallery-modal__media">
+      <img data-gallery-modal-image alt="" hidden>
+      <div class="gallery-modal__placeholder" data-gallery-modal-placeholder hidden></div>
+    </div>
+    <h2 id="gallery-modal-title" data-gallery-modal-title></h2>
+    <p data-gallery-modal-caption></p>
+  </div>
+</div>
+
+<script src="{{ '/assets/js/gallery.js' | relative_url }}"></script>
