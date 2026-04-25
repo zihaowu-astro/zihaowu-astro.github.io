@@ -107,7 +107,7 @@ gallery:
         - {src: "./assets/gallery/cycling/IMG_0008.jpg", title: "IMG_0008", alt: "", caption: ""}
         - {src: "./assets/gallery/cycling/IMG_0009.jpg", title: "IMG_0009", alt: "", caption: ""}
         - {src: "./assets/gallery/cycling/IMG_00010.jpg", title: "IMG_00010", alt: "", caption: ""}
-        - {src: "./assets/gallery/cycling/IMG_1525.jpg", title: "IMG_1525", alt: "", caption: ""}
+        - {src: "./assets/gallery/cycling/IMG_0002.jpg", title: "IMG_0002", alt: "", caption: ""}
         - {src: "./assets/gallery/cycling/IMG_0001.jpg", title: "IMG_0001", alt: "", caption: ""}
         - {src: "./assets/gallery/cycling/IMG_4666.jpg", title: "IMG_4666", alt: "", caption: ""}
         - {src: "./assets/gallery/cycling/IMG_0003.jpg", title: "IMG_0003", alt: "", caption: ""}
