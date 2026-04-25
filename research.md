@@ -51,7 +51,7 @@ I contribute to the key photometric measurement for JADES-GS-z14-0 (*z = 14*). I
 
 ## JWST Wisp Subtraction 
 
-Wu et al. (2026) [arXiv:2601.15958 (2026)](https://arxiv.org/abs/2601.15958)
+Wu et al. (2026) [arXiv:2601.15958](https://arxiv.org/abs/2601.15958)
 
 I developed a data-driven method to remove wisp artifacts using the non-negative matrix factorization (NMF) algorithm. Wisp is one of the most severe scattered-light artifacts in JWST NIRCam data, contanimating nearly 1/4 area in certain detectors. This technique has been successfully integrated into the JADES data reduction pipeline, with substantial improvements compared with existing methods..
 
