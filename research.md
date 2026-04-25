@@ -5,7 +5,7 @@ layout: splash
 ---
 ## JADES-ODz10
 
-Wu et al. (2026) [ arXiv:2601.15960](https://arxiv.org/abs/2601.15960)
+Wu et al. (2026) [arXiv:2601.15960](https://arxiv.org/abs/2601.15960)
 
 I discover a candidate galaxy overdensity at *z ≈ 10.5*, just 500 Myr after the Big Bang, comprising 18 galaxies with consistent photometric redshifts within 8 comoving Mpc. The galaxy number density is four times higher than the field expectation, accounting for 30% of the bright galaxy population and 50% of the total star formation activity at *10 < z < 12* in the JADES GOODS-S field. The observed abundance significantly exceeds predictions from cosmological simulations such as TNG100. 
 
@@ -17,7 +17,7 @@ I discover a candidate galaxy overdensity at *z ≈ 10.5*, just 500 Myr after th
 
 ## JADES-GS-z14-1
 
-Wu et al. (2025) [arXiv:2507.22858](https://arxiv.org/abs/2507.22858)
+Wu et al. (2025) [*The Astrophysical Journal*, 992, 212](https://iopscience.iop.org/article/10.3847/1538-4357/ae01a1)
 
 I lead the analysis of ultra-deep JWST observations of JADES-GS-z14-1 (*z = 13.86*). I discover that it lies in a small overlapping region of JADES MIRI observations and thus fortuitously has a 70-hour exposure—the deepest MIRI observation for any galaxy at high redshift. Combined with newly obtained 56 hours of NIRSpec/Prism spectroscopy and 16-band NIRCam imaging, this dataset enables an unprecedentedly detailed study of a faint galaxy in the early Universe.
 
@@ -37,7 +37,7 @@ To extract robust measurements at low signal-to-noise, I developed exposure-leve
 
 ## JADES-GS-z14-0
 
-Helton et al. (2025) [*Nature Astronomy, 1-12*](https://www.nature.com/articles/s41550-025-02503-z)
+Helton et al. (2025) [Nature Astronomy, 1-12](https://www.nature.com/articles/s41550-025-02503-z)
 
 I contribute to the key photometric measurement for JADES-GS-z14-0 (*z = 14*). I develop a forward-modeling method to perform accurate photometry in heavily contaminated situation. This method leverages high-resolution NIRCam imaging to model the source structure and disentangle the MIRI emission from a foreground contaminant, performing exposure-level forced photometry with full propagation of uncertainties and covariances. This approach delivers the critical MIRI/F770W flux measurement for this extraordinary galaxy.
 
@@ -51,7 +51,7 @@ I contribute to the key photometric measurement for JADES-GS-z14-0 (*z = 14*). I
 
 ## JWST Wisp Subtraction 
 
-Wu et al. in prep. 
+Wu et al. (2026) [arXiv:2601.15958 (2026)](https://arxiv.org/abs/2601.15958)
 
 I developed a data-driven method to remove wisp artifacts using the non-negative matrix factorization (NMF) algorithm. Wisp is one of the most severe scattered-light artifacts in JWST NIRCam data, contanimating nearly 1/4 area in certain detectors. This technique has been successfully integrated into the JADES data reduction pipeline, with substantial improvements compared with existing methods..
 
