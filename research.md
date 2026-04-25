@@ -7,13 +7,13 @@ layout: splash
 
 Wu et al. (2026) [ arXiv:2601.15960](https://arxiv.org/abs/2601.15960)
 
-I  discover a galaxy overdensity candidate at *z* ≈ 10.5, just 500 Myr after the Big Bang. This overdensity contains 18 galaxies with consistent photometric redshifts within 8 comoving Mpc, significantly beyond predictions from cosmological simulations, such as TNG100 . The galaxy number density is four times higher than the field expectation and contributes 30% of the bright galaxy population and 50% total star formation activity at $10 < z_\mathrm{phot} < 12$.
+I  discover a galaxy overdensity candidate at *z* ≈ 10.5, just 500 Myr after the Big Bang. This overdensity contains 18 galaxies with consistent photometric redshifts within 8 comoving Mpc, significantly beyond predictions from cosmological simulations, such as TNG100 . The galaxy number density is four times higher than the field expectation and contributes 30% of the bright galaxy population and 50% total star formation activity at 10 < z < 12.
 
 {% include figure
    image_path="/assets/fig/overdensity.png"
    alt="image"
-   caption="Spatial distribution of galaxy candidates at $10 < z_\mathrm{phot} < 12$ from the JADES photometric sample, color-coded by photometric redshift derived with the EAZY package. Large circles mark bright sources with F356W fluxes above 8 nJy (29.1 AB mag); small circles mark sources between 5 and 8 nJy. The bold black polygon outlines the JADES/NIRCam GOODS–S footprint in F115W. Hatched regions indicate shallow F115W coverage; all other areas within the footprint reach a point-source depth of 8 nJy at > 7σ significance. Contours show the estimated density field at the mean density and 1σ, 2σ, 3σ, and 4σ above the mean density of bright sources. The overdensity is on the west side of the field, with a peak galaxy number density exceeding four times the mean.  North is up, and east is to the left."
-   width="70%"           %} 
+   caption="Spatial distribution of galaxy candidates at 10 < z_phot < 12 from the JADES photometric sample, color-coded by photometric redshift derived with the EAZY package. Large circles mark bright sources with F356W fluxes above 8 nJy (29.1 AB mag); small circles mark sources between 5 and 8 nJy. The bold black polygon outlines the JADES/NIRCam GOODS–S footprint in F115W. Hatched regions indicate shallow F115W coverage; all other areas within the footprint reach a point-source depth of 8 nJy at > 7σ significance. Contours show the estimated density field at the mean density and 1σ, 2σ, 3σ, and 4σ above the mean density of bright sources. The overdensity is on the west side of the field, with a peak galaxy number density exceeding four times the mean.  North is up, and east is to the left."
+   width="50%"           %} 
 
 ## JADES-GS-z14-1
 
