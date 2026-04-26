@@ -7,7 +7,9 @@
   const title = modal.querySelector("[data-gallery-modal-title]");
   const caption = modal.querySelector("[data-gallery-modal-caption]");
   const closeButtons = modal.querySelectorAll("[data-gallery-close]");
+  const masthead = document.querySelector(".masthead");
   let activeCard = null;
+  let mastheadDisplay = "";
 
   const openModal = (card) => {
     activeCard = card;
@@ -28,12 +30,17 @@
 
     modal.hidden = false;
     document.body.classList.add("gallery-modal-open");
+    if (masthead) {
+      mastheadDisplay = masthead.style.display;
+      masthead.style.display = "none";
+    }
     modal.querySelector(".gallery-modal__close").focus({ preventScroll: true });
   };
 
   const closeModal = () => {
     modal.hidden = true;
     document.body.classList.remove("gallery-modal-open");
+    if (masthead) masthead.style.display = mastheadDisplay;
     if (activeCard) activeCard.focus({ preventScroll: true });
   };
 

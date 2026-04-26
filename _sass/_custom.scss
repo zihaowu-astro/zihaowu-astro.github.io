@@ -283,4 +283,13 @@ body {
 
 body.gallery-modal-open {
   overflow: hidden;
+
+  .masthead {
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+.page__content .header-link {
+  display: none !important;
 }
