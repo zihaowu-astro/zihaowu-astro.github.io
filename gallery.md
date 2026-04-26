@@ -136,7 +136,7 @@ gallery:
 
 # Moments
 
-“*Life in this vast world is a white horse darting past a crevice—vanishing in a heartbeat.*” 
+“*Life in this vast world is a white horse darting past a crevice—vanishing in a heartbeat.*”   
 “人生天地之间，若白驹之过隙，忽然而已。”  —庄子《知北游》
 
 {% include photo-gallery.html gallery=page.gallery %}
