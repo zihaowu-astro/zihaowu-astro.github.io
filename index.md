@@ -8,7 +8,9 @@ classes:
 
 <h1>About Me</h1>
 
-<img src="/assets/images/headshot.jpg" alt="Zihao Wu" class="about-mobile-avatar">
+<figure class="about-mobile-avatar-wrap">
+  <img src="/assets/images/headshot.jpg" alt="Zihao Wu" class="about-mobile-avatar">
+</figure>
 
 I am Zihao Wu (吴梓豪), a PhD student in the Department of Astronomy at Harvard University, advised by Professor [Daniel J. Eisenstein](https://scholar.harvard.edu/deisenstein/). I am a member of the [JWST Advanced Deep Extragalactic Survey (JADES)](https://jades-survey.github.io/).
 

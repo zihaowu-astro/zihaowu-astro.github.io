@@ -294,6 +294,7 @@ body.gallery-modal-open {
   display: none !important;
 }
 
+.about-mobile-avatar-wrap,
 .about-mobile-avatar {
   display: none;
 }
@@ -390,12 +391,53 @@ body.gallery-modal-open {
     width: 100%;
   }
 
-  .mobile-about .about-mobile-avatar {
+  .mobile-about .about-mobile-avatar-wrap {
     display: block;
     float: left;
-    width: 110px;
-    max-width: 38vw;
-    margin: 0.15rem 0.9rem 0.5rem 0;
+    margin: 0 0.9rem 0.5rem 0;
+  }
+
+  .mobile-about .about-mobile-avatar {
+    display: block;
+    width: 118px;
+    max-width: 40vw;
     border-radius: 4px;
+  }
+
+  .mobile-about .about-mobile-avatar-wrap + p {
+    margin-top: 0;
+  }
+
+  .gallery-page .gallery-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-content: stretch;
+    width: 100%;
+    max-width: 100%;
+    gap: 4px;
+  }
+
+  .gallery-page .gallery-card {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  .gallery-modal {
+    padding: 1rem;
+  }
+
+  .gallery-modal__panel {
+    padding: 0.85rem;
+  }
+
+  .gallery-modal__media,
+  .gallery-modal__placeholder {
+    min-height: 0;
+  }
+
+  .gallery-modal__media img {
+    width: 100%;
+    height: auto;
+    max-height: 62vh;
   }
 }
