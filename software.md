@@ -60,7 +60,7 @@ Planning a JWST program means knowing when a target is visible and what position
 {% include figure
    image_path="/assets/fig/software/jwst-schedulability.webp"
    alt="JWST field of regard visualization"
-   caption="The field of regard on 2027 Jan 1, with a target pinned in GOODS-S. The side panel reports the solar elongation, the nominal V3 position angle and allowed roll, the NIRSpec aperture position angle, and the visibility windows over the next two years." %}
+   caption="The field of regard on 2027 Sep 9, with a target pinned in GOODS-S. The side panel reports the solar elongation, the nominal V3 position angle and allowed roll, the NIRSpec aperture position angle, and the visibility windows over the next two years." %}
 
 </div>
 </div>
