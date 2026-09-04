@@ -5,7 +5,7 @@ layout: splash
 classes:
   - wide-figures
 ---
-## NMFwisp
+## [NMFwisp](https://zihaowu-astro.github.io/NMFwisp/)
 
 <div class="entry-row" markdown="1">
 <div class="entry-text" markdown="1">
@@ -25,7 +25,7 @@ Wisps are among the most severe scattered-light artifacts in JWST/NIRCam, contam
 </div>
 </div>
 
-## hMPT
+## [hMPT](https://github.com/zihaowu-astro/hMPT)
 
 <div class="entry-row" markdown="1">
 <div class="entry-text" markdown="1">
@@ -45,7 +45,7 @@ The yield of a NIRSpec MSA program is set by how many targets land in open shutt
 </div>
 </div>
 
-## jwst-schedulability
+## [jwst-schedulability](https://wuzihao.site/jwst-schedulability/)
 
 <div class="entry-row" markdown="1">
 <div class="entry-text" markdown="1">
@@ -65,7 +65,7 @@ Planning a JWST program means knowing when a target is visible and what position
 </div>
 </div>
 
-## cosmo-calc
+## [cosmo-calc](https://wuzihao.site/cosmo-calc/)
 
 <div class="entry-row" markdown="1">
 <div class="entry-text" markdown="1">
