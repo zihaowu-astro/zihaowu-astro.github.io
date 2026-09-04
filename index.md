@@ -16,7 +16,7 @@ I am Zihao Wu (吴梓豪, pronounced [Wú zǐháo](https://translate.google.com/
 
 My research focuses on JWST observations of galaxies in the early Universe. I currently lead a [JWST Cycle 5 program](https://www.stsci.edu/jwst-program-info/program/?program=12340) as Principal Investigator, targeting one of the earliest known galaxy overdensities at z ≈ 10.5 with 36 hr of NIRSpec spectroscopy. The observed galaxy abundance in this system far exceeds predictions from current cosmological simulations, making it a powerful laboratory for testing models of large-scale structure formation and galaxy evolution at cosmic dawn.
 
-Outside of research, I enjoy long-distance cycling, hiking, playing guitar, and reading. I have biked over 2,000 km, including a 900 km journey across the Yunnan Plateau, serving as the rear support rider handling mechanical repairs. Born in Sichuan, I have always loved hotpot.
+Outside of research, I enjoy cycling, hiking, cooking, and reading. I have biked over 2,000 km, including a 900 km journey across the Yunnan Plateau in China, serving as the rear support rider handling mechanical repairs. 
 
 Education
 -------------------
