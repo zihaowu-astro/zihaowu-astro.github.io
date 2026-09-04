@@ -11,8 +11,8 @@ layout: splash
 arXiv e-prints, [arXiv:2601.15960 (2026)](https://arxiv.org/abs/2601.15960)
 
 **Zihao Wu**, Benjamin D. Johnson, Daniel J. Eisenstein, Phillip Cargile, *et al.*  
-*JWST Advanced Deep Extragalactic Survey (JADES) Data Release 5: Wisp Subtraction with the Non-negative Matrix Factorization Algorithm*  
-arXiv e-prints, [arXiv:2601.15958 (2026)](https://arxiv.org/abs/2601.15958)
+*JWST Advanced Deep Extragalactic Survey (JADES) Data Release 5: Wisp Subtraction with the Nonnegative Matrix Factorization Algorithm*  
+[*The Astronomical Journal*, 172, 105 (2026)](https://iopscience.iop.org/article/10.3847/1538-3881/ae8254)
 
 **Zihao Wu**, Daniel J. Eisenstein, Benjamin D. Johnson, Peter Jakobsen, *et al.*  
 *JADES-GS-z14-1: A Compact, Faint Galaxy at z ≈ 14 with Weak Metal Lines from Extremely Deep JWST MIRI, NIRCam, and NIRSpec Observations*  

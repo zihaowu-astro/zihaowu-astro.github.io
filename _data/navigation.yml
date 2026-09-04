@@ -6,5 +6,7 @@ main:
     url: /assets/cv.pdf
   - title: "Research"
     url: /research/
-  - title: "Photos"
-    url: /moments/
+  - title: "Software"
+    url: /software/
+  # - title: "Photos"
+  #   url: /moments/

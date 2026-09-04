@@ -2,6 +2,7 @@
 title: "Moments"
 permalink: /moments/
 layout: splash
+published: false    # hidden: remove this line to bring the page back
 gallery:
   layout:
     columns: 4          # photos per row
